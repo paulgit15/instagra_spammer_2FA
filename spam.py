@@ -68,7 +68,7 @@ while True:
 
     recipient_choice = input("Enter the recipient's username or select from the list (number): ")
 
-    # Check if the input is a digit and within range
+    
     if recipient_choice.isdigit():
         try:
             recipient_username = list(usernames)[int(recipient_choice) - 1]
